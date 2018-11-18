@@ -7,6 +7,18 @@ ul {
       text-decoration: none;
       color: #e58415; }
 
+.gray_block {
+  background-color: #958671;
+  height: 225px; }
+  .gray_block ul {
+    border-right: solid 1px white; }
+    .gray_block ul li {
+      padding: 0;
+      float: none;
+      display: block; }
+      .gray_block ul li a {
+        color: white; }
+
 header .site_menu .container {
   max-width: 440px;
   float: right; }
@@ -39,5 +51,7 @@ header .page_menu {
   margin-top: 50px; }
   header .page_menu ul li {
     margin-right: 20px; }
+    header .page_menu ul li:nth-child(1) {
+      margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
