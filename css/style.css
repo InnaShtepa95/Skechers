@@ -1,33 +1,43 @@
+ul {
+  float: right;
+  list-style: none; }
+  ul li {
+    float: right; }
+    ul li a {
+      text-decoration: none;
+      color: #e58415; }
+
 header .site_menu .container {
   max-width: 440px;
   float: right; }
   header .site_menu .container ul {
-    font-size: 11px;
-    float: right;
-    list-style: none; }
+    font-size: 11px; }
     header .site_menu .container ul li {
-      margin-right: 30px;
-      line-height: 25px;
-      float: right; }
+      margin-right: 25px;
+      line-height: 25px; }
       header .site_menu .container ul li:nth-child(3):after {
         margin-left: 3px;
         content: "&or"; }
-      header .site_menu .container ul li a {
-        text-decoration: none;
-        color: #e58415; }
   header .site_menu .container .social_icons {
     float: right;
     text-align: center; }
     header .site_menu .container .social_icons a {
+      display: inline-block;
       background-color: #e58415;
-      width: 35px;
-      text-decoration: none;
-      margin-left: 10px;
-      border-radius: 10%;
-      height: 30px; }
+      width: 25px;
+      text-align: center;
+      border-radius: 20px; }
       header .site_menu .container .social_icons a i {
-        line-height: 25px;
-        font-size: 11px;
-        color: white; }
+        font-size: 15px;
+        color: white;
+        line-height: 25px; }
+header .logo a {
+  margin-top: 45px;
+  float: left; }
+header .page_menu {
+  float: right;
+  margin-top: 50px; }
+  header .page_menu ul li {
+    margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
