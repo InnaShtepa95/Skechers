@@ -1,0 +1,49 @@
+header {
+  .site_menu {
+    .container {
+      max-width: 440px;
+      float: right;
+
+      ul {
+        font-size: 11px;
+        float: right;
+        list-style: none;
+
+        li {
+          margin-right: 30px;
+          line-height: 25px;
+          float: right;
+          &:nth-child(3):after {
+            margin-left: 3px;
+            content: "&or";
+          }
+
+          a {
+            text-decoration: none;
+            color: #e58415;
+          }
+        }
+
+      }
+      .social_icons {
+        float: right;
+        text-align: center;
+        a {
+          background-color: #e58415;
+          width: 35px;
+          text-decoration: none;
+          margin-left: 10px;
+          border-radius: 10%;
+          height: 30px;
+          i {
+            line-height: 25px;
+            font-size: 11px;
+            color: white;
+
+
+          }
+        }
+      }
+    }
+  }
+}

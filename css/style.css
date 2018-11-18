@@ -1,0 +1,33 @@
+header .site_menu .container {
+  max-width: 440px;
+  float: right; }
+  header .site_menu .container ul {
+    font-size: 11px;
+    float: right;
+    list-style: none; }
+    header .site_menu .container ul li {
+      margin-right: 30px;
+      line-height: 25px;
+      float: right; }
+      header .site_menu .container ul li:nth-child(3):after {
+        margin-left: 3px;
+        content: "&or"; }
+      header .site_menu .container ul li a {
+        text-decoration: none;
+        color: #e58415; }
+  header .site_menu .container .social_icons {
+    float: right;
+    text-align: center; }
+    header .site_menu .container .social_icons a {
+      background-color: #e58415;
+      width: 35px;
+      text-decoration: none;
+      margin-left: 10px;
+      border-radius: 10%;
+      height: 30px; }
+      header .site_menu .container .social_icons a i {
+        line-height: 25px;
+        font-size: 11px;
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
