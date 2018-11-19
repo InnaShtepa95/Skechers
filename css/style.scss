@@ -1,56 +1,25 @@
-ul {
-  float: right;
-  list-style: none;
-  li {
-    float: right;
-    a {
-      text-decoration: none;
-      color: #e58415;
-    }
-  }
-}
-
-.gray_block {
-  background-color: #958671;
-
-  height: 225px;
- 
-  ul {
-    border-right: solid 1px white;
-    li {
-      padding: 0;
-      float: none;
-      display: block;
-
-      a {
-        color: white;
-      }
-    }
-  }
+.container {
+  max-width: 960px;
+  margin: auto;
 }
 
 header {
   .site_menu {
     .container {
-      max-width: 440px;
-      float: right;
-
       ul {
-        font-size: 11px;
-
+        list-style: none;
         li {
-          margin-right: 25px;
-          line-height: 25px;
-
+          float: right;
+          margin-right: 15px;
+          margin-top: 10px;
           &:nth-child(3):after {
-            margin-left: 3px;
             content: "&or";
           }
-
           a {
+            text-decoration: none;
+            color: #e58415;
           }
         }
-
       }
       .social_icons {
         float: right;
@@ -71,32 +40,79 @@ header {
         }
       }
     }
-
   }
-  .logo {
-    a {
-      margin-top: 45px;
-      float: left;
-      img {
 
-      }
-    }
-  }
-  .page_menu {
-    float: right;
-    margin-top: 50px;
+}
+
+.logo {
+  margin-top: 45px;
+  float: left;
+}
+
+.page_menu {
+  padding-top: 70px;
+  .container {
+    font-weight: bold;
+
     ul {
-      li {
-        margin-right: 20px;
-        &:nth-child(1) {
-          margin-right: 0;
-        }
-        a {
+      float: right;
+      list-style: none;
 
+      li {
+        float: right;
+        padding-top:10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        &:hover{
+          border-top: solid 2px #958671;
+        }
+
+        a {
+          text-decoration: none;
+          color: #e58415;
+          font-style: italic;
+        }
+      }
+      .drop {
+        &:hover{
+          .drop_down{
+            display: block;
+          }
+        }
+        position: relative;
+        .drop_down {
+          height: 225px;
+          width: 280px;
+          background-color: #958671;
+          position: absolute;
+          display: none;
+          div {
+            padding: 20px 20px 15px 25px;
+            display: inline-block;
+            &:nth-child(2){
+              float: right;
+              padding-left: 0;
+              a{
+                padding-right: 10px;
+                border-right: none;
+              }
+            }
+            a {
+
+              display: block;
+              font-size: 13px;
+              color: white;
+              padding-right: 30px;
+              border-right: solid 1px white;
+             line-height: 21px;
+
+
+            }
+          }
         }
       }
     }
-
-    }
   }
+
+}
 
